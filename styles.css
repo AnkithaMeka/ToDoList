@@ -1,0 +1,120 @@
+body {
+    background-image: url('background-image.png');
+    font-family: 'Roboto Slab', serif;
+    color: #F5F5F5;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+span {
+    width: 250px;
+    text-align: left;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: #364F6B;
+    padding: 0;
+}
+
+.bar-icon {
+    margin: 15px;
+    color: #F5F5F5;
+    background-color: #364F6B;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.heading {
+    margin: auto;
+    text-shadow: 3px 3px #3C8DAD;
+}
+
+/* To do list box styling */
+.main {
+    background-color: #364F6B;
+    width: 600px;
+    height: 570px;
+    margin-top: 50px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 10px 10px #3C8DAD;
+}
+
+.heading2 {
+    padding: 10px;
+    font-size: 2rem;
+    text-shadow: 3px 3px #3C8DAD;
+}
+
+/* Input box styling */
+.input {
+    width: 85%;
+    height: 40px;
+    padding: 10px;
+    border: 0;
+    border-radius: 7px;
+    margin: 0 10px;
+}
+
+.error {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Add button styling */
+.addbtn {
+    border: 0;
+    border-radius: 45%;
+    background-color: #F5F5F5;
+    padding: 5px 10px;
+}
+
+.addbtn:hover {
+    background-color: #D1D9D9;
+}
+
+
+/* List items styling */
+.list-item {
+    height: 45px;
+    width: 95%;
+    background-color: #F5F5F5;
+    margin: 15px;
+    padding: 0;
+    border-radius: 7px;
+}
+
+.itemText {
+    font-family: 'Roboto', sans-serif;
+    color: #1E2022;
+    float: left;
+    padding: 8px 15px;
+    width: 77%;
+    font-size: 1.1rem;
+}
+
+/* Styling of done and delete buttons */
+.iconbtn {
+    margin: 5px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+.iconbtn:hover {
+    background-color: #D1D9D9;
+}
+
+.tickbtn {
+    color: green;
+    border-color: green;
+}
+
+.delbtn {
+    color: #FF2E63;
+    border-color: #FF2E63;
+}
